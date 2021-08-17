@@ -1,0 +1,74 @@
+.label {
+    padding: 8px;
+    margin: 4px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.9);
+
+    border-radius: 6px;
+
+    -webkit-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.label-minimal {
+    padding: 5px;
+    margin: 2px;
+
+    text-align: center;
+
+    background-color: transparent;
+
+    /* color: rgba(255, 255, 255, 0.90); */
+    color: rgba(0, 0, 0, 0.9);
+
+    border-radius: 6px;
+    border: 1px solid rgb(125, 169, 204);
+}
+
+.common-label {
+    border: 1px solid rgb(125, 169, 204);
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.common-label:hover {
+    /* background-color: rgba(32, 149, 243, 0.5); */
+    background-color: rgb(125, 169, 204);
+    color: rgba(0, 0, 0, 0.9);
+    outline: 0;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.common-label-selected,
+.common-label-selected:hover {
+    background-color: rgb(125, 169, 204);
+    color: white;
+    outline: 0;
+    box-shadow: 0px 3px 6px 0px inset rgba(0, 0, 0, 0.2);
+}
+
+.special-label {
+    border: 1px solid rgb(125, 169, 204);
+    box-shadow: 0px 3px 6px 0px rgba(24, 24, 24, 0.2);
+}
+
+.special-label:hover {
+    background-color: rgb(125, 169, 204);
+    color: white;
+    outline: 0;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.special-label-selected,
+.special-label-selected:hover {
+    background-color: rgb(125, 169, 204);
+    color: white;
+    outline: 0;
+    box-shadow: 0px 3px 6px 0px inset rgba(0, 0, 0, 0.2);
+}
