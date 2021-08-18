@@ -38,7 +38,7 @@ export default {
                     company: "iD Tech",
                     date: "Summer 2019",
                     description:
-                        "Prepared lesson plans to teach students to code with Scratch and Lego Mindstorms •Supervised students to maintain safety and a positive environment",
+                        "Prepared lesson plans to teach students to code with Scratch and Lego Mindstorms •Supervised students to maintain a safe and positive environment",
                     links: [],
                     secondaryLinks: [],
                     labels: [],

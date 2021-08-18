@@ -26,7 +26,7 @@ const Experience = ({ experience, onClick }) => {
                     <MultilineText text={experience.description} />
                 </div>
 
-                {experience.links.length ? (
+                {experience.links && experience.links.length ? (
                     <div className="experience-details-main-links">
                         {experience.links.map((link) => (
                             <a
@@ -47,7 +47,8 @@ const Experience = ({ experience, onClick }) => {
                         ))}
                     </div>
                 ) : null}
-                {experience.secondaryLinks.length ? (
+                {experience.secondaryLinks &&
+                experience.secondaryLinks.length ? (
                     <div className="experience-details-secondary-links">
                         {experience.secondaryLinks.map((link) => (
                             <a
