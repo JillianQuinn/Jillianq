@@ -180,7 +180,11 @@ export default {
                                 "Software Development",
                                 "Software Testing",
                             ],
-                            url: null,
+                            url: {
+                                name: "Kash Django Web App Project",
+                                url: "http://jillianq.com/Kash",
+                                icon: "fab fa-python",
+                            },
                             description: "",
                         },
                         {
@@ -205,7 +209,7 @@ export default {
                             name: "CPE 357: Systems Programming (C Language)",
                             labels: ["C", "UNIX OS"],
                             url: {
-                                name: "Github",
+                                name: "Course Projects",
                                 url: "https://github.com/JillianQuinn/SystemsProgramming",
                                 icon: "fab fa-github",
                             },
@@ -241,7 +245,7 @@ export default {
                                 "UML",
                             ],
                             url: {
-                                name: "Github",
+                                name: "Refactoring Project",
                                 url: "https://github.com/JillianQuinn/SpaceGame",
                                 icon: "fab fa-github",
                             },
@@ -275,7 +279,7 @@ export default {
                             name: "CSC 202: Data Structures (Python)",
                             labels: ["Python", "Data Structures", "PyCharm"],
                             url: {
-                                name: "Github",
+                                name: "Course Projects",
                                 url: "https://github.com/JillianQuinn/Spring-2019-Data-Structures",
                                 icon: "fab fa-github",
                             },
@@ -315,7 +319,7 @@ export default {
                             name: "CPE 101: Fundamentals of Computer Science",
                             labels: ["Python", "unittest"],
                             url: {
-                                name: "Github",
+                                name: "Course Projects",
                                 url: "https://github.com/JillianQuinn/Winter-2019-Projects",
                                 icon: "fab fa-github",
                             },
@@ -325,7 +329,7 @@ export default {
                             name: "ENGL 149: Technical Writing for Engineers",
                             labels: [],
                             url: {
-                                name: "iFixit",
+                                name: "iFixit Documentation Project",
                                 url: "https://www.ifixit.com/Device/Lenovo_Yoga_920-13IKB",
                                 icon: "fas fa-file",
                             },
@@ -357,7 +361,7 @@ export default {
                                 "Computational Art",
                             ],
                             url: {
-                                name: "Github",
+                                name: "Course Projects",
                                 url: "https://github.com/JillianQuinn/Fall-2018-Computational-Art-Projects",
                                 icon: "fab fa-github",
                             },

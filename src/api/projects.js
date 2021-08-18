@@ -143,7 +143,13 @@ export default {
                             caption: "Technical architecture map",
                         },
                     ],
-                    labels: ["React Native", "IBM DB2", "SQL", "Node.js"],
+                    labels: [
+                        "React Native",
+                        "IBM DB2",
+                        "SQL",
+                        "Node.js",
+                        "HTML/CSS",
+                    ],
                     imgSmall:
                         "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/shopical.png?alt=media&token=fbc959bc-b518-407d-9f73-6876ff23a6d1",
                     img: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/shopical.png?alt=media&token=fbc959bc-b518-407d-9f73-6876ff23a6d1",
@@ -181,7 +187,7 @@ export default {
                             icon: "fab fa-app-store",
                         },
                     ],
-                    labels: ["Swift", "Xcode"],
+                    labels: ["Swift", "Xcode", "SwiftUI"],
                     imgSmall:
                         "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/cpcp.png?alt=media&token=d85d16dc-e158-4ff8-b95a-90f7da6cb22f",
                     img: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/cpcp.png?alt=media&token=d85d16dc-e158-4ff8-b95a-90f7da6cb22f",
@@ -232,7 +238,6 @@ export default {
                                 "Kash UML of data structures from a developer perspective",
                         },
                     ],
-                    demoVideo: "https://www.youtube.com/embed/dGJTT230F7o",
                     labels: ["Django", "Python", "HTML/CSS", "Postgres"],
                     imgSmall:
                         "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/kash.png?alt=media&token=a2289768-eb1e-4d6b-98b8-053ed1a5807f",

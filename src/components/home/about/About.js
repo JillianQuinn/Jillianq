@@ -37,6 +37,13 @@ const About = () => {
                 GPA: 3.83
                 <br />
                 <br />
+                Skills: Python, Java, JavaScript, C++, C, Swift, HTML, CSS, SQL,
+                Racket, RISC-V Assembly, MERN (MongoDB, Express, ReactJS,
+                Node.js), Jest, React Native, AWS Amplify & S3, Django, Git,
+                JUnit, Unix Command Line, Postgres, Visual Studio Code, Xcode,
+                Postman, Figma, Adobe Photoshop, Illustrator, InDesign
+                <br />
+                <br />
                 For more information, see my{" "}
                 <a
                     onClick={onLinkClick}
