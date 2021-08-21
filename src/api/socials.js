@@ -8,12 +8,7 @@ export default {
                     icon: "fas fa-envelope",
                     url: "mailto:jiquinn@calpoly.com",
                 },
-                // {
-                //     name: "secondemail",
-                //     text: "jillian@jillianq.com",
-                //     icon: "fas fa-envelope",
-                //     url: "mailto:jillian@jillianq.com",
-                // },
+
                 {
                     name: "github",
                     text: "",
@@ -29,3 +24,9 @@ export default {
             ])
         ),
 };
+// {
+//     name: "secondemail",
+//     text: "jillian@jillianq.com",
+//     icon: "fas fa-envelope",
+//     url: "mailto:jillian@jillianq.com",
+// },

@@ -52,6 +52,15 @@ const About = () => {
                     rel="noopener noreferrer"
                 >
                     <span className="about-cv">Resume</span>
+                </a>{" "}
+                and{" "}
+                <a
+                    onClick={onLinkClick}
+                    href="https://github.com/JillianQuinn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span className="about-cv">Github</span>
                 </a>
                 <br />
                 Look below for my recent projects, experience, and courses.
