@@ -7,7 +7,8 @@ import Routes from "./Routes";
 
 import ReactGA from "react-ga";
 // ReactGA.initialize("G-HCVRBPMW6H");
-ReactGA.initialize("205715074");
+// ReactGA.initialize("205715074");
+ReactGA.initialize("UA-205715074-1");
 
 const Root = () => {
     return (
