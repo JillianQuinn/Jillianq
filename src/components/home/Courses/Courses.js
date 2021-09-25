@@ -13,11 +13,11 @@ const Courses = ({ quarter }) => {
                     <div className="course-details-title">
                         {quarter.quarter}{" "}
                     </div>
-                    {quarter.GPA ? (
+                    {/* {quarter.GPA ? (
                         <div className="course-details-subtitle">
                             {quarter.GPA.toFixed(2)}{" "}
                         </div>
-                    ) : null}
+                    ) : null} */}
                 </div>
                 {quarter.courses ? (
                     <div className="course-details">

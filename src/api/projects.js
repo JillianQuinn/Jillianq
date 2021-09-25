@@ -7,7 +7,7 @@ export default {
                     name: "Paso Robles Youth Arts Volunteer Management Web App",
                     subtitle: "Technical Lead and Full Stack Developer",
                     description:
-                        "As Tech Lead, I also lead weekly stand-ups, created and distributed sprint responsibilities, performed code reviews, ensured CI/CD workflow, wrote project documentation, and communicated with the nonprofit, PM, designer, and developers. <br/><br/> This MERN web app serves as a volunteer sign-up system to make it easier for volunteers to register, as well as see their impact. Admins can create and edit events, manage volunteer data, view volunteer profiles, export CSV reports, and more.<br/><br/>",
+                        "As Tech Lead, I lead weekly stand-ups, created and distributed sprint responsibilities, performed code reviews, ensured CI/CD workflow, wrote project documentation, and communicated with the nonprofit, PM, designer, and developers. <br/><br/> This MERN web app serves as a volunteer sign-up system to make it easier for volunteers to register, as well as see their impact. Admins can create and edit events, manage volunteer data, view volunteer profiles, export CSV reports, and more. This app is developed with the MERN stack (ReactJS, ExpressJS, Node.js, MongoDB, JavaScript, HTML/CSS) and deployed with AWS Amplify, and uses an S3 bucket to store images. <br/><br/>",
                     links: [
                         {
                             url: "https://youtharts-volunteer.h4i-cp.org/",
@@ -94,7 +94,7 @@ export default {
                     name: "Shopical",
                     subtitle: "2nd Place in the 2020 IBM Intern Hackathon",
                     description:
-                        "Won 2nd Place in the 2020 IBM Intern Hackathon out of 900 interns and 126 teams. <br/><br/>The Shopical mobile app provides a way for consumers to check the sustainability of ingredients in beauty and food products in real-time. <br/> Users can take a photo of the ingredients list of a product and instantly receive color-coded information about the environmentally harmful chemicals present to empower individuals to make purchases that are better for the environment. It works by sending the photo in base64 encoding format to the Node.js backend server deployed on IBM Cloud. The text is extracted with an OCR API, and parsed. The ingredients are then quiered with SQL statements against my IBM DB2 database instance with harmful ingredients.<br/><br/>",
+                        "Won 2nd Place in the 2020 IBM Intern Hackathon out of 900 interns and 126 teams. <br/><br/>The Shopical mobile app provides a way for consumers to check the sustainability of ingredients in beauty and food products in real-time. <br/> Users can take a photo of the ingredients list of a product and instantly receive color-coded information about the environmentally harmful chemicals present to empower individuals to make purchases that are better for the environment. It works by sending the photo in base64 encoding format to the Node.js backend server deployed on IBM Cloud. The text is extracted with an OCR API, and parsed. The ingredients are then queried with SQL statements against my IBM DB2 database instance with harmful ingredients.<br/><br/>",
                     links: [
                         {
                             url: "https://github.com/JillianQuinn/Shopical",
@@ -103,6 +103,11 @@ export default {
                         },
                     ],
                     secondaryLinks: [
+                        {
+                            url: "https://github.com/JillianQuinn/Shopical",
+                            name: "Github Repo",
+                            icon: "fab fa-github",
+                        },
                         {
                             url: "https://docs.google.com/presentation/d/1CW5WOTQiPHPXGwLONWaUFSEp0OAMON2r1Bjp6r1b-pk/edit?usp=sharing",
                             name: "Presentation Slides",
@@ -160,7 +165,7 @@ export default {
                     name: "Cal Poly Cat Program Mobile",
                     subtitle: "Developed as a part of Hack4imapact Cal Poly",
                     description:
-                        "As a Full Stack Mobile Developer, I worked with another student to create this app for the Cal Poly Cat Program to assists with administrative tasks. It allows volunteers to add new cat profiles, view current cats, and schedule events such as foster or adoption appointments. ",
+                        "As a Full Stack Mobile Developer, I self-taught myself Swift and SwiftUI and worked with another student to create this app for the Cal Poly Cat Program to assist with administrative tasks. It allows volunteers to add new cat profiles, view current cats, and schedule events such as foster or adoption appointments. Previously, the organization stored this information on paper lists and excel spreadsheets, but now they have an easier time staying organized. The app currently stores information for over 230 cats. ",
                     links: [
                         {
                             url: "https://github.com/hack4impact-calpoly/SLO_cat_shelter_mobile",
@@ -181,6 +186,11 @@ export default {
                         },
                     ],
                     secondaryLinks: [
+                        {
+                            url: "https://github.com/hack4impact-calpoly/SLO_cat_shelter_mobile",
+                            name: "Github",
+                            icon: "fab fa-github",
+                        },
                         {
                             url: "https://apps.apple.com/us/app/cal-poly-cat-program/id1534260106#?platform=iphone",
                             name: "App Store",
