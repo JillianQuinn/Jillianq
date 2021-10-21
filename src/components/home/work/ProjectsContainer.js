@@ -26,7 +26,7 @@ const ProjectsContainer = ({ projects, activeLabels, projectClick }) => {
 
     return (
         <TransitionGroup className="projects-container">
-            {projects.filter(filterActiveProjects).map((project) => (
+            {projects.filter(filterActiveProjects).filter((project) => project.id !== "HeuristicEvaluation").map((project) => (
                 <CSSTransition
                     key={project.name}
                     classNames="project-fade"

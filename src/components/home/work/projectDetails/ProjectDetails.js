@@ -139,7 +139,7 @@ const ProjectDetailsCard = ({ project, onClick }) => {
 
                 {project.imageDescription.length ? (
                     <div className="project-details-image-layout">
-                        <div className="project-details-header">Layout</div>
+                        {project.conclusion ? <div className="project-details-header">Heuristic Evaluation</div> : <div className="project-details-header">Layout</div>}
                         {project.imageDescription.map((image, key) => (
                             <div className={`images-${key % 2 == 0}`}>
                                 <img
@@ -148,11 +148,20 @@ const ProjectDetailsCard = ({ project, onClick }) => {
                                     className={`project-image-${key % 2 == 0}`}
                                 />
                                 <div className="project-details-caption">
-                                    {image.caption}
+                                <MultilineText text={image.caption}></MultilineText>
                                 </div>
                             </div>
                         ))}
                     </div>
+                ) : null}
+
+                {project.conclusion ? (
+                    <div>
+                        <div className="project-details-header">Conclusion</div>
+                            <div className="project-details-caption">
+                                <MultilineText text={project.conclusion}></MultilineText>
+                            </div>
+                         </div>       
                 ) : null}
 
                 <div className="project-details-main-links">
