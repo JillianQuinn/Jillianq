@@ -254,44 +254,6 @@ export default {
                     img: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/kash.png?alt=media&token=a2289768-eb1e-4d6b-98b8-053ed1a5807f",
                     highlight: true,
                 },
-                {
-                    id: "HeuristicEvaluation",
-                    name: "Heuristic Evaluation: Google Dark Theme",
-                    subtitle:
-                        "CSC 486: Human Computer Interaction",
-                    description:
-                        "Google is a powerful tool that allows people to request information, as it scrapes the web for answers and related resources, effectively organizing and collecting everything to make knowledge more accessible. In September of 2021, Google officially released functionality to support dark themes. The UX trend, dark mode, is the ability to invert the colors in a user interface, making the lightly colored background black and the black colored components white. It has existed since the first computer screens were made with cathode ray tubes. Illuminating the entire screen took significant energy, so it only lit the lightly colored text on the naturally black background. However, with a shift to LCD technology, where the screen is backlit, user interfaces began using light backgrounds with dark text. The recent advancement of using OLED screens in some monitors and phones that light up each pixel individually is encouraging the UX trend, dark mode, to return.  <br/><br/> This evaluation considers a few of Jakob Nielson’s Usability Heuristics from his studies on usability engineering. <br/>It was conducted on a 13” MacBook Pro on Firefox and Google Chrome.<br/><br/> ",
-                    imageDescription: [
-                        {
-                            url: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/GoogleHomescreen.png?alt=media&token=31d16805-c438-4f90-b9fc-869872cc3652",
-                            caption:
-                                "Simple and natural dialogue <br/><br/> User interfaces should be as simple as possible and emphasize the most relevant features for the user. <br/><br/> In the case of Google’s search engine, the home screen centers the search box on the page, drawing the users’ attention to the most important function of the page, the search box where the user should input their request. Therefore, it effectively does not distract the user with unnecessary information and actions.<br/><br/> Additionally, the “Google” logo is simplified to only the color white instead of the classic, colorful logo to provide a crisper experience for the user to read high contrast white on black text. Reading colorful text with a black background could cause the user unnecessary eye strain and may not be accessible for people with colorblindness. <br/><br/>",
-                        },
-                        {
-                            url: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/colorschemegoogle.png?alt=media&token=9db0e667-5bec-486c-9938-a9cc217dc0e1",
-                            caption:
-                                "Simple and natural dialogue <br/><br/> With respect to color, it is better to limit to a few consistent colors and only use it to highlight rather than to provide valuable information. <br/><br/> On the page where the user can see the search results, the color scheme is still simple. It consists of a dark grey background, blue unvisited links, purple links that the user has visited, and light grey for the link descriptions. These four colors are simple and pleasing to the eye, and most importantly, do not distract the user. <br/><br/>",
-                        },
-
-                        {
-                            url: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/darklightsettings.png?alt=media&token=50912cdf-1943-451b-9dc9-de47360a3fd8",
-                            caption:
-                                "Speak the users’ language<br/><br/> User interfaces should use terminology that the user understands and metaphors that map the functionality to something that the user understands in the real world. Google does this by using the terminology “Dark theme: On” and a moon icon to represent the dark grey and black theme, and “Dark theme: Off” and a sun icon, similar to the brightness icon, to represent the light color theme and backgrounds. This is intuitive to the user because the dark theme uses primarily dark colors. Additionally, it mimics users’ expectations based on the world around them because a user associates the moon with nighttime and, therefore, darkness; when their surroundings turn dark at night, they expect their technology to match that, as well. This terminology and metaphor help the user remember the meaning of the setting and make the change feel less drastic.<br/><br/>",
-                        },
-                        {
-                            url: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/autocomplete.png?alt=media&token=21f1273a-50e7-41c2-9a4f-5c9774b7afa1",
-                            caption:
-                                "Minimize user memory load <br/><br/> Interfaces should remember information and the users’ preferences to limit what the user needs to recall and input. To do this, Google automatically stores the users’ preference to use Dark Mode, Light Mode, or Auto based on their previous selection. Therefore, the user does not need to re-input their preference every time they use Google. It also considers what the user picked on their devices’ system preferences. <br/><br/>  Another way that Google Search effectively minimizes user memory load is by using auto-complete in the search bar to help suggest what the user should search. To continue the dark theme, these items are displayed in white text in the same font style as the users’ current input, helping the user clearly see the relation in the search suggestions and better assist them in formulating their search query.<br/><br/>  ",
-                        },
-                        
-                    ],
-                    labels: [],
-                    imgSmall:
-                        "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/GoogleHomescreen.png?alt=media&token=31d16805-c438-4f90-b9fc-869872cc3652",
-                    img: "https://firebasestorage.googleapis.com/v0/b/jillianq-6f1da.appspot.com/o/GoogleHomescreen.png?alt=media&token=31d16805-c438-4f90-b9fc-869872cc3652",
-                    highlight: true,
-                    conclusion: "Though Googe only recently added dark mode, it has the potential to influence a variety of other interfaces to incorporate it as well. Additionally, as people use screens more in their daily life, they are in support of methods to reduce eye strain, increase battery life, and promote focus, which are all helpful features of dark mode. By utilizing dark themes, Google is effectively creating a better user experience for its users. <br/><br/> ",
-                },
             ])
         ),
 };

@@ -34,7 +34,7 @@ const About = () => {
                 <br />
                 Computer Science Undergrad • Class of 2022
                 <br />
-                GPA: 3.83
+                GPA: 3.844
                 <br />
                 <br />
                 Skills: Python, Java, JavaScript, C++, C, Swift, HTML, CSS, SQL,

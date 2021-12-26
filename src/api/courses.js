@@ -3,6 +3,30 @@ export default {
         new Promise((resolve, reject) =>
             resolve([
                 {
+                    quarter: "Winter 2022",
+                    courses: [
+                        {
+                            name: "CSC 492: Senior Project II",
+                            labels: [],
+                            url: null,
+                            description: "",
+                        },
+                        {
+                            name: "CSC-480: Artificial Intelligence",
+                            labels: [],
+                            url: null,
+                            description: "",
+                        },
+                        {
+                            name: "CSC-369: Intro to Distributed Computing",
+                            labels: [],
+                            url: null,
+                            description: "",
+                        },
+                    ],
+                    GPA: 0,
+                },
+                {
                     quarter: "Fall 2021",
                     courses: [
                         {
@@ -30,7 +54,7 @@ export default {
                             description: "",
                         },
                     ],
-                    GPA: 0,
+                    GPA: 4.0,
                 },
                 {
                     quarter: "Spring 2021",
