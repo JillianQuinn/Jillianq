@@ -33,12 +33,25 @@ export default {
                     highlight: true,
                 },
                 {
+                    id: "h4i",
+                    position:
+                        "Technical Lead • Director of PR • Full Stack Developer",
+                    company: "Hack4impact Cal Poly",
+                    date: "September 2019 - Present",
+                    description:
+                        "•Developed a MERN web app for the nonprofit, Paso Robles Youth Arts, to assist with volunteer registration and data management •Created a Swift mobile app in Xcode, storing over 250 cat profiles for the Cal Poly Cat Program •Lead weekly stand-ups to distribute sprint responsibilities to 5 developers •Performed code reviews •Provide tech leads with resources and assistance •Verify weekly that all project teams are on target •Plan and teach Tech Lead Bootcamp •Design newsletters and social media posts for events, team progress, and recruitment to improve club exposure and awareness •Maintained inter-club relations, improved exposure, and recruited members",
+                    links: [],
+                    secondaryLinks: [],
+                    labels: ["ReactJS", "Swift", "MERN", "Leadership"],
+                    highlight: true,
+                },
+                {
                     id: "idTech",
                     position: "Coding Instructor",
                     company: "iD Tech",
                     date: "Summer 2019",
                     description:
-                        "Prepared lesson plans to teach students to code with Scratch and Lego Mindstorms •Supervised students to maintain a safe and positive environment",
+                        "Prepared lesson plans to teach over 60 students, aged 6 to 10, the fundamentals of coding with Scratch and Lego Mindstorms •Supervised students to maintain a safe and positive environment",
                     links: [],
                     secondaryLinks: [],
                     labels: [],

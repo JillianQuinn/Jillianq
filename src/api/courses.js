@@ -7,8 +7,19 @@ export default {
                     courses: [
                         {
                             name: "CSC 492: Senior Project II",
-                            labels: [],
-                            url: null,
+                            labels: [
+                                "AWS",
+                                "React Native",
+                                "DynamoDB",
+                                "JavaScript",
+                                "HTML/CSS",
+                                "Figma",
+                            ],
+                            url: {
+                                name: "Seek Github",
+                                url: "https://github.com/aibrusci/Seek_Senior_Project",
+                                icon: "fab fa-github",
+                            },
                             description: "",
                         },
                         {
@@ -31,13 +42,32 @@ export default {
                     courses: [
                         {
                             name: "CSC 491: Senior Project I",
-                            labels: [],
-                            url: null,
+                            labels: [
+                                "AWS",
+                                "React Native",
+                                "DynamoDB",
+                                "JavaScript",
+                                "HTML/CSS",
+                                "Figma",
+                            ],
+                            url: {
+                                name: "Seek Github",
+                                url: "https://github.com/aibrusci/Seek_Senior_Project",
+                                icon: "fab fa-github",
+                            },
                             description: "",
                         },
                         {
                             name: "CSC-486: Human-Computer Interaction",
-                            labels: [],
+                            labels: [
+                                "Figma",
+                                "User Interviews",
+                                "Observation Studies",
+                                "A/B Testing",
+                                "Wireframe Creation",
+                                "UDX Reports",
+                                "User Feedback",
+                            ],
                             url: null,
                             description: "",
                         },

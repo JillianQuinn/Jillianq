@@ -6,7 +6,7 @@ export default {
                     name: "email",
                     text: "jiquinn@calpoly.edu",
                     icon: "fas fa-envelope",
-                    url: "mailto:jiquinn@calpoly.com",
+                    url: "mailto:jiquinn@calpoly.edu",
                 },
 
                 {
